@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">Motivate!</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Motivate!</string>
+    <string name="nav_header_subtitle">App para trabajar</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="comming_soon">Comming soon</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_IL">Control de Trabajo</string>
+    <!--    <string name="app_name">demo1</string>-->
+    <string name="tree_void">\n\n\n</string>
+    <string name="min_rand">Intervalo minimo</string>
+    <string name="max_rand">Valor maximo del intervalo aleatorio</string>
+    <string name="init_message">Inicia tu esfuerzo!</string>
+    <string name="Question">Estas trabajando?</string>
+    <string name="yes">Si</string>
+    <string name="No">No</string>
+    <string name="title_activity_settings_intervalo">SettingsActivityIntervalo</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="title_activity_limited_interval">LimitedIntervalActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <!--    <string name="app_name">DrawerLayout example</string>-->
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nisl magna, rutrum sed tempus at, iaculis id tellus. Ut risus sapien, volutpat ut maximus ut, condimentum quis augue. Ut rutrum interdum fringilla. Fusce mattis neque odio. Pellentesque quis augue in enim accumsan viverra. Curabitur lacinia diam consequat sapien pellentesque, in ultricies ligula dapibus. Donec maximus lobortis mauris vitae mattis. Pellentesque sed vestibulum velit. Mauris diam nisl, fermentum quis velit vel, ultricies tincidunt purus. Sed finibus auctor nunc, quis suscipit dolor scelerisque vitae. Cras semper scelerisque ipsum nec auctor. Nulla cursus eleifend tellus, eget lacinia magna tempus ultrices. Pellentesque nec tincidunt nibh. Maecenas pharetra volutpat ullamcorper. In sagittis fringilla tempus. Integer aliquam facilisis elit ut semper.
+
+        Nullam in dapibus arcu. Ut dignissim augue eu orci interdum, non vehicula tortor interdum. Proin nec malesuada ex. Donec interdum eu nisl nec condimentum. Phasellus ac dapibus justo. Maecenas ornare lorem quis augue malesuada, sit amet ullamcorper felis egestas. Suspendisse imperdiet mauris vitae eleifend eleifend. Phasellus diam mi, vehicula sed justo ac, condimentum laoreet enim. Nulla magna eros, malesuada ac cursus ullamcorper, imperdiet nec nunc.
+
+
+    </string>
+    <string name="tuto_1">
+        Esta app es para las personas que tienen problemas enfocandose en una tarea aburrida
+        o tienen que entregar urgentemente algun trabajo
+        \n\nDurante la epidemia de COVID-19   es facil perder la concentracion, nosotros lo resolvemos
+    </string>
+    <string name="tuto_2">
+        Primero tienes que definir algun pequeño "premio" que sea facilmente consumible:
+        \n\t\tUn sorbo de agua de sabor
+        \n\t\tUn poco de fruta
+        \n\t\tUna cucharada de gelatina
+        \n\t\tUna cucharada de yogurth
+        \nAlgun alimento ligero y que sea de tu agrado
+    </string>
+    <string name="tuto_3">
+        Al iniciar a trabajar activa la alarma  aleatoria
+        \n\nAl sonar, si estas trabajando oprime el boton "Si"
+        \n\nConsume tu premio, por haber realizado tu trabajo
+        y prosigue con el, la alarma se reiniciara inmediatamente
+    </string>
+    <string name="tuto_4">
+        Al sonar, si no estas trabajando oprime el boton "No"
+        \n\nNo puedes consumir tu premio, pero debes seguir trabajando
+        \n\nMientras mas te enfoques en trabajar mas rapido terminaras, la alarma se reiniciara inmediatamente
+    </string>
+    <string name="tuto_5">
+        Trata de mantenerte trabajando el mayor tiempo posible
+        \n\nDebes buscar un ambiente tranquilo
+        \n\nIgnora las distracciones y sera mas facil obtener tu premio
+        \n\nEl esfuerzo es la clave!
+    </string>
+    <string name="init_app">Begin to work!</string>
+    <string name="Tutorial">Tutorial</string>
+</resources>

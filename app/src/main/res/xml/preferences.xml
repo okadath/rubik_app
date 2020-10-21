@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="https://schemas.android.com/apk/res/android">
+
+    <RingtonePreference
+        android:key="ringtone"
+        android:showDefault="true"
+        android:showSilent="true"
+        android:summary="Pick a ringtone you like"
+        android:title="Ringtone Preference" />
+</PreferenceScreen>

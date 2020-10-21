@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.reinforcement_app.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_tuto1"
+            app:destination="@id/tuto1" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_IL"
+            app:destination="@id/nav_IL" />
+        <action
+            android:id="@+id/action_nav_home_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+
+    <activity
+        android:id="@+id/nav_IL"
+        android:name="com.example.reinforcement_app.ILActivity"
+        android:label="IL"
+        tools:layout="@layout/activity_i_l"/>
+    <fragment
+        android:id="@+id/tuto1"
+        android:name="com.example.reinforcement_app.Tuto1Fragment"
+        android:label="@string/Tutorial"
+        tools:layout="@layout/fragment_tuto1">
+        <action
+            android:id="@+id/action_tuto1_to_tuto2Fragment"
+            app:destination="@id/tuto2Fragment" />
+        <action
+            android:id="@+id/action_tuto1_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/tuto2Fragment"
+        android:name="com.example.reinforcement_app.Tuto2Fragment"
+        android:label="@string/Tutorial"
+        tools:layout="@layout/fragment_tuto2">
+        <action
+            android:id="@+id/action_tuto2Fragment_to_tuto3Fragment"
+            app:destination="@id/tuto3Fragment" />
+        <action
+            android:id="@+id/action_tuto2Fragment_to_tuto1"
+            app:destination="@id/tuto1" />
+    </fragment>
+    <fragment
+        android:id="@+id/tuto3Fragment"
+        android:name="com.example.reinforcement_app.Tuto3Fragment"
+        android:label="@string/Tutorial"
+        tools:layout="@layout/fragment_tuto3">
+        <action
+            android:id="@+id/action_tuto3Fragment_to_tuto4Fragment"
+            app:destination="@id/tuto4Fragment" />
+        <action
+            android:id="@+id/action_tuto3Fragment_to_tuto2Fragment"
+            app:destination="@id/tuto2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tuto4Fragment"
+        android:name="com.example.reinforcement_app.Tuto4Fragment"
+        android:label="@string/Tutorial"
+        tools:layout="@layout/fragment_tuto4">
+        <action
+            android:id="@+id/action_tuto4Fragment_to_tuto3Fragment"
+            app:destination="@id/tuto3Fragment" />
+        <action
+            android:id="@+id/action_tuto4Fragment_to_tuto5Fragment"
+            app:destination="@id/tuto5Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tuto5Fragment"
+        android:name="com.example.reinforcement_app.Tuto5Fragment"
+        android:label="@string/Tutorial"
+        tools:layout="@layout/fragment_tuto5">
+        <action
+            android:id="@+id/action_tuto5Fragment_to_tuto4Fragment"
+            app:destination="@id/tuto4Fragment" />
+        <action
+            android:id="@+id/action_tuto5Fragment_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.reinforcement_app.SettingsFragment"
+        android:label="SettingsFragment" />
+</navigation>
